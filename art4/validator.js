@@ -76,7 +76,7 @@ function phone(){
     var phone = document.getElementById("Phone").value;
     var errorMessages = "";
 
-    if (isNaN(phone) || phone.length > 15 || phone===null || phone==="") {
+    if (isNaN(phone) || phone.length < 10 || phone.length > 15 || phone===null || phone==="") {
         errorMessages += "<p>Invalid phone number</p>";
         console.log("phone number invalid — length")
         } else {
