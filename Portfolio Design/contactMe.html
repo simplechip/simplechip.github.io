@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Contact me</title>
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="header">
+            <h1>Contact me</h1>
+            <h2>Web-based Portfolio Design</h2>
+        </div>
+
+        <div id="topmenu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="coursework.html">Coursework</a></li>
+                <li><a href="artifact.html">Artifacts</a></li>
+                <li><a href="module.html">Module Assignments</a></li>
+                <li><a href="contactMe.html">Contact me</a></li>
+                <li><a href="creative.html">"Own" creative page</a></li>
+            </ul>
+        </div>
+
+        <div id="content">
+            <div id="container">
+                <form id="myform" action="ty.html" onsubmit="isValid();">
+                    <p>
+                        <label for="FirstName">First Name:</label>
+                        <input type="text" id="FirstName" name="FirstName" />
+                    </p>
+                    <div class="warning" id="fname"></div>
+
+                    <p>
+                        <label for="LastName">Last Name:</label>
+                        <input type="text" id="LastName" name="LastName" />
+                    </p>
+                    <div class="warning" id="lname"></div>
+
+                    <p>
+                        <label for="EMail">E-mail:</label>
+                        <input type="text" id="EMail" name="EMail" />
+                    </p>
+                    <div class="warning" id="email"></div>
+
+                    <p>
+                        <label for="Comment">Comment(s):</label>
+                        <input type="text" id="Comment" name="Comment" />
+                    </p>
+
+                    <p>
+                        <input type="submit" id="submit" name="submit" value="Submit" />
+                    </p>
+
+                    <div class="warning" id="submiterror"></div>
+                </form>
+
+                <script src="js/validator.js"></script>
+
+                <div class="clear"></div>
+            </div>
+        </div>
+
+        <div class="clear"></div>
+
+        <div id="footer">
+            <div class="right">
+                <!-- Please consider leaving the credit - link back to our website in the footer intact or if you want to remove it please buy link back free license on http://www.simpletemplates.org/simple-website-template-1.html
+-->
+                Design by
+                <a href="http://www.simpletemplates.org" target="blank">Simple Website Templates</a
+          >
+        </div>
+
+        <div class="clear"></div>
+      </div>
+    </div>
+  </body>
+</html>

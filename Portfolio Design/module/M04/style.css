@@ -1,0 +1,62 @@
+* {
+    font-family: Arial, Verdana, sans-serif;
+    color: black;
+    text-align: center;}
+h1 {
+    font-family: 'NeomatrixCodeRegular';
+    font-weight: normal;
+    font-style: normal;
+    color: deeppink;
+}
+body {
+    width: 90%;
+    height: 100%;
+    background-image: url("https://cdn.vox-cdn.com/uploads/chorus_asset/file/22661965/img19.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#content {
+    overflow: auto;}
+#nav, #feature, #footer {
+    margin: 1%;}
+#feature, .article {
+    height: 10em;
+    margin-bottom: 1em;
+}
+#feature {
+    background-color: #8CC63E;
+    background-image: url("https://cdn.vox-cdn.com/thumbor/sbXwYqvDVqq1BeGBG0Kvr9MpyJA=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19341372/microsoftedgenewlogo.jpg");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.column1 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+    background-color: lightblue;
+}
+.column2 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+    background-color: lightgreen;
+}
+.column3 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+    background-color: white;
+}
+li {
+    display: inline;
+    padding: 0.5em;
+}
+#nav {
+    background-color: pink;
+    padding: 0.5em 0;
+}
+#footer {
+    background-color: darksalmon;
+    padding: 0.5em 0;
+}
